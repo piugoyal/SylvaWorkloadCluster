@@ -2,6 +2,7 @@ kind: SylvaWorkloadCluster
 apiVersion: workloadclusteroperator.sylva/v1alpha1
 metadata:
   name: swc
+  namespace: test-workload-cluster
 spec:
   k8sVersion: 1.27  # without minor
   # which parts of sylva-units `.cluster`
