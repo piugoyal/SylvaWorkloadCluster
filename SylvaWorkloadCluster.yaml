@@ -4,7 +4,7 @@ metadata:
   name: swc
   namespace: test-workload-cluster
 spec:
-  k8sVersion: 1.27  # without minor
+  k8sVersion: "1.27"  # without minor
   # which parts of sylva-units `.cluster`
   infrastructure: openstack # metal3, vsphere
   controlPlane:
