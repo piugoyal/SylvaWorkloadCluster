@@ -1,5 +1,7 @@
 kind: SylvaWorkloadCluster
 apiVersion: sylva.gitlab.com/v1alpha1
+metadata:
+  name: swc
 spec:
   k8sVersion: 1.27  # without minor
   # which parts of sylva-units `.cluster`
