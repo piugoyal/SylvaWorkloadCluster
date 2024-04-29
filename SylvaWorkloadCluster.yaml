@@ -1,5 +1,5 @@
 kind: SylvaWorkloadCluster
-apiVersion: sylvaworkloadclusters.workloadclusteroperator.sylva/v1alpha1
+apiVersion: workloadclusteroperator.sylva/v1alpha1
 metadata:
   name: swc
 spec:
