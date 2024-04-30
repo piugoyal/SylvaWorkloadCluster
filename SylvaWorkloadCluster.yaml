@@ -19,3 +19,7 @@ spec:
       replicas: 2
   enabledUnits:   # shortcut to have something lighter than sylvaUnitsValues.units.xxx.enabled
     multus: true # false
+  clusterSettings:
+    capo:
+      ssh_key_name: mgmt_key
+      image_key: ubuntu-jammy-plain-rke2-1-28-8
