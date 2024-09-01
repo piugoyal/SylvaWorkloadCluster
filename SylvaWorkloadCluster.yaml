@@ -23,3 +23,4 @@ spec:
     capo:
       ssh_key_name: mgmt_key
       image_key: ubuntu-jammy-hardened-rke2-1-28-12
+      network_id: 489b1587-4aa4-49b2-be56-62af67efa68f
