@@ -9,14 +9,12 @@ spec:
   infrastructure: openstack # metal3, vsphere
   controlPlane:
     provider: rke2 # kubeadm
-    replicas: 3
+    replicas: 1
   machineDeployments:  # mapped to sylva-units .cluster.machine_deployments
     # but not everything is allowed
     # in particular, no `{{.*}}` string is allowed
     my-md1-name:
       replicas: 1
-    my-md2-name:
-      replicas: 2
   enabledUnits:   # shortcut to have something lighter than sylvaUnitsValues.units.xxx.enabled
     multus: true # false
   clusterSettings:
