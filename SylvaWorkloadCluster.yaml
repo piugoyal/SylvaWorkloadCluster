@@ -14,7 +14,7 @@ spec:
     # but not everything is allowed
     # in particular, no `{{.*}}` string is allowed
     my-md1-name:
-      replicas: 1
+      replicas: 2
   enabledUnits:   # shortcut to have something lighter than sylvaUnitsValues.units.xxx.enabled
     multus: true # false
   clusterSettings:
