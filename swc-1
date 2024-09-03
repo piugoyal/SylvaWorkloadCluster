@@ -1,7 +1,7 @@
 kind: SylvaWorkloadCluster
 apiVersion: workloadclusteroperator.sylva/v1alpha1
 metadata:
-  name: swc1
+  name: swc
   namespace: wc-1
 spec:
   k8sVersion: "1.28"  # without minor
@@ -14,7 +14,7 @@ spec:
     # but not everything is allowed
     # in particular, no `{{.*}}` string is allowed
     my-md1-name:
-      replicas: 2
+      replicas: 3
   enabledUnits:   # shortcut to have something lighter than sylvaUnitsValues.units.xxx.enabled
     multus: true # false
   clusterSettings:
